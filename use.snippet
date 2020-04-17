@@ -2,7 +2,7 @@
 	/**
 	 * ${0:配置值}
 	 */
-	const r$CURRENT_SECONDS_UNIX = await(() => {
+	const r$CURRENT_SECONDS_UNIX = (() => {
 		const p1 = $1;	// 配置key
 		return an35<string>(p1);
 	})();
