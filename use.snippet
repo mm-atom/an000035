@@ -1,9 +1,8 @@
 	// 获取mm.json配置
 	/**
-	 * ${0:变量注释}
+	 * ${0:配置值}
 	 */
 	const r$CURRENT_SECONDS_UNIX = await(() => {
-		const p1 = $1;	// 参数注释
-		const p2 = $2;	// 参数注释
-		return an35(p1, p2);
+		const p1 = $1;	// 配置key
+		return an35<string>(p1);
 	})();
