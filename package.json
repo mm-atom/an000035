@@ -1,6 +1,6 @@
 {
 	"name": "@mmstudio/an000035",
-	"version": "1.0.202004171409",
+	"version": "1.0.202004171413",
 	"description": "获取mm.json配置",
 	"scripts": {
 		"test": "tsc && ava ./tests/*.js",
